@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DREAM DESERT HOTEL</title>
+</head>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia&effect=neon|outline|emboss|shadow-multiple">
+
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia&effect=fire">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+
+<link rel="stylesheet" href="css/style.css">
+<style>
+    /*CSS RESET*/
+    body {
+
+        color: rgb(216, 235, 44);
+        margin: 0px;
+        padding: 0px;
+        background: url(img/mainporch.jpg);
+        background-size: 1600px 890px;
+        /*background size:cover IS USED FOR THE COVER THE SCREEN*/
+        /* background-size: cover;
+          background-position: top center;  */
+    }
+
+    .left img {
+        width: 136px;
+    }
+
+    .left div {
+        font-family: "Sofia", sans-serif;
+
+        line-height: 20px;
+        font-size: 96px;
+        text-align: center;
+    }
+
+    .mid {
+        /* background-color: green; */
+        display: block;
+        width: 90px 80px;
+        margin: 30px;
+
+    }
+
+    .right {
+
+        display: inline-block;
+        position: absolute;
+        right: 34px;
+        top: 10px;
+    }
+
+    .navbar {
+        display: inline-block;
+    }
+
+    .navbar li {
+        display: inline-block;
+        font-size: 30px;
+    }
+
+    .navbar li a {
+        color: white;
+        text-decoration: none;
+        padding: 14px 63px;
+    }
+
+
+
+
+    .btn {
+
+        margin: 10px 10px;
+        background-color: grey;
+        color: honeydew;
+        padding: 10px 20px;
+        border: 0px solid red;
+        border-radius: 20px;
+        font-size: 20px;
+        cursor: pointer;
+    }
+
+    .btn:hover {
+        background-color: rgb(59, 59, 59);
+    }
+
+    .of {
+        background-color: gray;
+        margin: 20px 20px;
+        border-radius: 20px;
+        padding: 10px;
+    }
+
+    .of:hover {
+        background-color: rgb(59, 59, 59)
+    }
+
+    .container {
+        border: 4px solid rgba(206, 121, 51, 0.918);
+        margin: 0px 400px;
+        padding: 20px;
+        width: 45%;
+        border-radius: 15px;
+    }
+
+    .form-group input {
+
+        text-align: center;
+        display: block;
+        width: 400px;
+        padding: 10px;
+        border: 4px solid rgb(146, 144, 141);
+        font-size: 20px;
+        border-radius: 10PX;
+    }
+
+    .container h1 {
+        font-size: 50px;
+        color: rgb(17, 17, 17);
+        text-align: center;
+    }
+
+    .container button {
+        display: block;
+        width: 25%;
+        margin: 10px auto;
+    }
+
+    .active:hover {
+        background-color: rgb(133, 136, 128);
+        border-radius: 15px;
+    }
+
+    .header div {
+        background-color: black;
+        border-radius: 15px;
+        width: 40px 40px;
+    }
+</style>
+
+<body>
+    <header class="header">
+        <!--left box for logo-->
+        <div class="left">
+            <img src="img/best.jpg" alt="">
+            <div> DREAM DESERT HOTEL </div>
+        </div>
+
+        <!--mid box for navbar-->
+        <div class="mid">
+            <ul class="navbar">
+                <li><a href="#" class="active">HOME</a></li>
+                <li><a href="#" class="active">ABOUT US</a></li>
+                <li><a href="#" class="active">OUR HOTELS</a></li>
+                <li><a href="#" class="active">BOOK NOW</a></li>
+                <!--<div class="search">
+                    <input type="text" name="search" id="search" placeholder="Search Your Room">
+                </div>-->
+            </ul>
+        </div>
+
+        <!--right box for button-->
+        <div class="right">
+            <button class="btn">Call us Now</button>
+            <button class="btn">Email Now</button>
+        </div>
+    </header>
+
+    <div class="container">
+        <h1> BOOK YOUR ROOM </h1>
+        <form action="noaction.php">
+            <div class="form-group">
+                <input type="text" name="" placeholder="ENTER YOUR NAME">
+                <br>
+
+                <form action="noaction.php">
+                    <input type="text" name="" placeholder="ENTER YOUR NUMBER">
+
+                    <br>
+
+                    <form action="noaction.php">
+                        <input type="text" name="" placeholder="YOUR DESTINSTION">
+
+                        <br>
+
+
+                        <form action="noaction.php">
+                            <input type="text" name="" placeholder="ADULT">
+
+
+
+                            
+
+
+
+                            <br>
+                            <button class="of">SUBMIT</button>
+                        </form>
+            </div>
+</body>
+
+</html>
